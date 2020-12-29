@@ -1,7 +1,5 @@
 FROM python:3.8.5
 
-LABEL author="Maria Mozgunova" version=1 date="16.12.2020"
-
 RUN mkdir /code
 
 WORKDIR /code
